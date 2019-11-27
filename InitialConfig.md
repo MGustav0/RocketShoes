@@ -21,3 +21,9 @@ Para configurar o eslint: ```yarn eslint --init```
 Remova o ```package-lock.json``` e execute o ```yarn``` no terminal.
 
 Reconfigure o arquivo ```.eslintrc.js``` como o do projeto.
+
+## Configurar um servidor JSON fake
+
+Json-Server: https://github.com/typicode/json-server
+
+```yarn global add json-server```
