@@ -1,6 +1,6 @@
 # Configurações do projeto
 
-## Padrão de código
+## Padrão de projeto e código
 
 ```shell
 yarn add eslint prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
