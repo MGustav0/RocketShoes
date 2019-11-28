@@ -31,6 +31,9 @@ module.exports = {
       'warn',
       { extensions: ['.jsx', '.js'] }
     ],
-    'import/prefer-default-export': 'off'
+    'import/prefer-default-export': 'off',
+    'no-console': ["error", { allow: ["tron"] }],
+    'react/static-property-placement': [0, 'always'],
+    'react/state-in-constructor': "off"
   },
 };

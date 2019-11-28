@@ -7,7 +7,6 @@ import api from '../../services/api';
 import { ProductList } from './styles';
 
 class Home extends Component {
-  // eslint-disable-next-line react/state-in-constructor
   state = {
     products: [],
   };
