@@ -27,3 +27,7 @@ Reconfigure o arquivo ```.eslintrc.js``` como o do projeto.
 Json-Server: https://github.com/typicode/json-server
 
 ```yarn global add json-server```
+
+
+yarn start
+json-server server.json -p 3333 -w
