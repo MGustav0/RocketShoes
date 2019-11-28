@@ -8,11 +8,13 @@ import {
   MdDelete,
 } from 'react-icons/md';
 
+import { formatPrice } from '../../util/format';
+
 import * as CarActions from '../../store/modules/cart/actions';
 
 import { Container, ProductTable, Total } from './styles';
 
-function Cart({ cart, removeFromCart, updateAmount }) {
+function Cart({ cart, total, removeFromCart, updateAmount }) {
   function incrementAmount(product) {
     updateAmount(product.id, product.amount + 1);
   }
@@ -61,7 +63,7 @@ function Cart({ cart, removeFromCart, updateAmount }) {
                 </div>
               </td>
               <td>
-                <strong>R$ 480,30</strong>
+                <strong>{product.subTotal}</strong>
               </td>
               <td>
                 <button
@@ -81,7 +83,7 @@ function Cart({ cart, removeFromCart, updateAmount }) {
 
         <Total>
           <span>TOTAL</span>
-          <strong>R$ 1440,90</strong>
+          <strong>{total}</strong>
         </Total>
       </footer>
     </Container>
@@ -91,7 +93,16 @@ function Cart({ cart, removeFromCart, updateAmount }) {
 /** Pega informações do estado e mapeia em formato de propriedades POR componente. */
 const mapStateToProps = state => ({
   /** cria a propriedade neste componente, chamada "cart", que recebe todasd as informações do reducer em quesatão: ./store/modules/cart/reducer.js */
-  cart: state.cart,
+  cart: state.cart.map(product => ({
+    ...product,
+    subTotal: formatPrice(product.price * product.amount),
+  })),
+  /** "reduce()" reduz o array à um único valor */
+  total: formatPrice(
+    state.cart.reduce((total, product) => {
+      return total + product.price * product.amount;
+    }, 0)
+  ),
 });
 
 /** Converte "Actions" do Redux em propriedades do componente atual. */
