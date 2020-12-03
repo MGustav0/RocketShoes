@@ -1,68 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="Rocketshoes" title="#rockeshoes" src="https://github.com/MGustav0/RocketShoes/blob/master/extras/images/logo.png" width="360px" />
+</h1>
 
-## Available Scripts
+<h4 align="center">
+  🚀 Loja virtual de venda de tênis desenvolvida com React e Redux
+</h4>
 
-In the project directory, you can run:
+![Badge](https://img.shields.io/badge/node-%3E%3D%2012.18.2-brightgreen) ![Badge](https://img.shields.io/badge/ReactJS-blueviolet)
 
-### `yarn start`
+<h1 align="center">
+    <img alt="Rocketshoes" title="#delicinha" src="https://github.com/MGustav0/RocketShoes/blob/master/extras/images/front1.png" />
+</h1>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## :rocket: Tecnologias
 
-### `yarn test`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org)
+- [Redux](https://github.com/reduxjs/redux)
+- [Axios](https://github.com/axios/axios)
+- [Reactotron](https://github.com/infinitered/reactotron)
+- [Immer](https://github.com/immerjs/immer)
+- [Styled Components](https://github.com/styled-components/styled-components)
+- [Polished](https://github.com/styled-components/polished)
+- [React Icons](https://github.com/react-icons/react-icons)
 
-### `yarn build`
+## 💻 Projeto
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+:shoe: Loja virtual de venda de tênis desenvolvida com React e Redux.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🔖 Layout
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Você pode baixar o layout do projeto no formato `.sketch` através [desse link](nope).
 
-### `yarn eject`
+Para abrir o arquivo no formato `.sketch` em qualquer sistema operacional utilize a ferramenta [Figma](https://figma.com).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🔧 Iniciando o projeto
+- Clone este repositório usando `git clone https://github.com/helderavila/rocketshoes.git`
+- Vá para o diretório usando: `cd rocketshoes`;
+- Rode o comando `yarn` para instalar todas as dependências;
+- Rode o comando `yarn start` para iniciar o servidor;
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤔 Como contribuir
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-## Learn More
+## :memo: Licença
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Feito com ♥ by Gustavo Moreira
